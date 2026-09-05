@@ -36,6 +36,13 @@ fails loudly before you upload. Includes the rejection guide — starting with t
 fact that *"image has incorrect dimensions"* almost always means an alpha
 channel, not the dimensions.
 
+**[pdf-lib-cjk](https://github.com/Kuan-1113/pdf-lib-cjk)**
+· `JavaScript` · `MIT`
+Write Chinese, Japanese and Korean into a PDF that Chrome will actually draw.
+A CFF font embeds as CIDFontType0 and the viewer paints nothing — silently,
+while Acrobat renders it fine. The font pipeline that avoids that, plus
+subsetting that takes one line of Chinese from 4,370 KB embedded down to 4.7 KB.
+
 ---
 
 Also here: some earlier work on quantitative trading tooling
